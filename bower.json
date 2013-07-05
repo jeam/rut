@@ -1,0 +1,19 @@
+{
+  "name": "rut",
+  "version": "0.1.0",
+  "author": "Jorge Álvarez <jorge@jalvarez.cl> (http://jalvarez.cl)",
+  "main": "./dist/rut.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "package.json"
+  ],
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-clean": "*"
+  } 
+}
