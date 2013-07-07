@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Rut.js by jeam</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Rut.js</h1>
+        <p>Rut.js te ayuda a validar y formatear rut's en tus aplicaciones JavaScript</p>
+
+        <p class="view"><a href="https://github.com/jeam/rut">View the Project on GitHub <small>jeam/rut</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/jeam/rut/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/jeam/rut/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/jeam/rut">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="validador-de-rut" class="anchor" href="#validador-de-rut"><span class="octicon octicon-link"></span></a>Validador de Rut</h1>
+
+<p><strong>Rut.js</strong> es una pequeña herramienta que te ayuda al validado y formateo de rut's en tus aplicaciones en JavaScript. La herramienta esta escrita en CoffeeScript.</p>
+
+<h2>
+<a name="ejemplos-de-uso" class="anchor" href="#ejemplos-de-uso"><span class="octicon octicon-link"></span></a>Ejemplos de uso</h2>
+
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">rut</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rut</span><span class="p">(</span><span class="s1">'12345678-k'</span><span class="p">);</span>
+</pre></div>
+
+<p>Se retorna un objeto con propiedades y metodos</p>
+
+<h3>
+<a name="propiedades" class="anchor" href="#propiedades"><span class="octicon octicon-link"></span></a>Propiedades</h3>
+
+<h4>
+<a name="isvalid-boolean" class="anchor" href="#isvalid-boolean"><span class="octicon octicon-link"></span></a>.isValid <code>boolean</code>
+</h4>
+
+<div class="highlight"><pre><span class="k">if</span> <span class="p">(</span> <span class="nx">rut</span><span class="p">.</span><span class="nx">isValid</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// true</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="c1">// false</span>
+<span class="p">}</span>
+</pre></div>
+
+<h4>
+<a name="rut-string" class="anchor" href="#rut-string"><span class="octicon octicon-link"></span></a>.rut <code>string</code>
+</h4>
+
+<div class="highlight"><pre><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">rut</span><span class="p">.</span><span class="nx">rut</span> <span class="p">);</span>
+<span class="c1">// "12345678"</span>
+</pre></div>
+
+<h4>
+<a name="checkdigit-string" class="anchor" href="#checkdigit-string"><span class="octicon octicon-link"></span></a>.checkDigit <code>string</code>
+</h4>
+
+<div class="highlight"><pre><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">rut</span><span class="p">.</span><span class="nx">checkDigit</span> <span class="p">);</span>
+<span class="c1">// "K"</span>
+</pre></div>
+
+<h3>
+<a name="metodos" class="anchor" href="#metodos"><span class="octicon octicon-link"></span></a>Metodos</h3>
+
+<h4>
+<a name="validate-boolean" class="anchor" href="#validate-boolean"><span class="octicon octicon-link"></span></a>.validate() :<code>boolean</code>
+</h4>
+
+<div class="highlight"><pre><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">rut</span><span class="p">.</span><span class="nx">validate</span><span class="p">()</span> <span class="p">);</span>
+<span class="c1">// true or false</span>
+</pre></div>
+
+<h4>
+<a name="getcleanrut-string" class="anchor" href="#getcleanrut-string"><span class="octicon octicon-link"></span></a>.getCleanRut() :<code>string</code>
+</h4>
+
+<div class="highlight"><pre><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">rut</span><span class="p">.</span><span class="nx">getCleanRut</span><span class="p">()</span> <span class="p">);</span>
+<span class="c1">// "12345678K"</span>
+</pre></div>
+
+<h4>
+<a name="getnicerutboolean-string" class="anchor" href="#getnicerutboolean-string"><span class="octicon octicon-link"></span></a>.getNiceRut([<code>boolean</code>]) :<code>string</code>
+</h4>
+
+<div class="highlight"><pre><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">rut</span><span class="p">.</span><span class="nx">getNiceRut</span><span class="p">()</span> <span class="p">);</span>
+<span class="c1">// "12.345.678-K"</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">rut</span><span class="p">.</span><span class="nx">getNiceRut</span><span class="p">(</span><span class="kc">false</span><span class="p">)</span> <span class="p">);</span>
+<span class="c1">// "12345678-K"</span>
+</pre></div>
+
+<h4>
+<a name="setrutstring-boolean-void" class="anchor" href="#setrutstring-boolean-void"><span class="octicon octicon-link"></span></a>.setRut(<code>string</code> [,<code>boolean</code>]) :<code>void</code>
+</h4>
+
+<p>Actualiza el rut en la variable, el segundo parametro es opcional.</p>
+
+<div class="highlight"><pre><span class="c1">// Con dígito verificador</span>
+<span class="nx">rut</span><span class="p">.</span><span class="nx">setRut</span><span class="p">(</span><span class="s1">'12.345.678-K'</span><span class="p">);</span>
+
+<span class="c1">// Sin dígito verificador</span>
+<span class="nx">rut</span><span class="p">.</span><span class="nx">setRut</span><span class="p">(</span><span class="s1">'12345678'</span><span class="p">,</span> <span class="kc">true</span><span class="p">);</span>
+</pre></div>
+
+<h3>
+<a name="opciones" class="anchor" href="#opciones"><span class="octicon octicon-link"></span></a>Opciones</h3>
+
+<div class="highlight"><pre><span class="c1">// Con dígito verificador</span>
+<span class="kd">var</span> <span class="nx">rut</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rut</span><span class="p">(</span><span class="s1">'12345678-k'</span><span class="p">);</span>
+
+<span class="c1">// Sin dígito verificador</span>
+<span class="kd">var</span> <span class="nx">rut</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rut</span><span class="p">(</span><span class="s1">'12345678'</span><span class="p">,</span> <span class="kc">true</span><span class="p">);</span>
+</pre></div>
+
+<h2>
+<a name="compilar" class="anchor" href="#compilar"><span class="octicon octicon-link"></span></a>Compilar</h2>
+
+<p>Se requiere de Grunt <code>~0.4.0</code></p>
+
+<p>Solo tiene la opción default así que solo tienen que ejecutar:</p>
+
+<pre lang="shell"><code>grunt
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/jeam">jeam</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-42290017-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
