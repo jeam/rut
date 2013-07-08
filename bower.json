@@ -2,12 +2,18 @@
   "name": "rutjs",
   "version": "0.1.0",
   "author": "Jorge Álvarez <jorge@jalvarez.cl> (http://jalvarez.cl)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeam/rutjs.git"
+  },
   "main": "./dist/rut.js",
   "ignore": [
     "**/.*",
     "node_modules",
     "test",
-    "package.json"
+    "package.json",
+    "src",
+    "Gruntfile.coffee"
   ],
   "devDependencies": {
     "grunt": "0.4.x",
