@@ -1,5 +1,5 @@
 {
-  "name": "rut",
+  "name": "rutjs",
   "version": "0.1.0",
   "author": "Jorge Álvarez <jorge@jalvarez.cl> (http://jalvarez.cl)",
   "main": "./dist/rut.js",

@@ -1,6 +1,6 @@
 /*!
  * Rut.js v0.1.0
- * http://jeam.github.io/rut/
+ * http://jeam.github.io/rutjs
  *
  * Copyright (c) 2013 Jorge Álvarez <jorge@jalvarez.cl>
  * Released under the MIT license
@@ -19,7 +19,7 @@
   var Rut;
 
   Rut = (function() {
-    var _cleanRut, _formatRut, _getCheckDigit, _getLastDigit, _removeLastDigit;
+    var _cleanRut, _formatRut, _getCheckDigit;
 
     function Rut(rut, withoutCheckDigit) {
       this.setRut(rut, withoutCheckDigit);
@@ -64,14 +64,6 @@
 
     _cleanRut = function(rut) {
       return rut.replace(/(\.|\-)/g, '');
-    };
-
-    _getLastDigit = function(rut) {
-      return rut.substr(rut.length - 1).toUpperCase();
-    };
-
-    _removeLastDigit = function(rut) {
-      return rut.substr(0, rut.length - 1);
     };
 
     _getCheckDigit = function(rut) {
