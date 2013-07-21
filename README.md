@@ -1,6 +1,17 @@
 # *Rut.js* Validador de Rut
 
-**Rut.js** es una pequeña herramienta que te ayuda al validado y formateo de rut's en tus aplicaciones en JavaScript. La herramienta esta escrita en CoffeeScript.
+Rut.js es una pequeña herramienta que te ayuda al validado y formateo de rut's en tus aplicaciones JavaScript. La herramienta esta escrita en CoffeeScript y puede ser utilizado tanto en nodejs como en el browser.
+
+## Descarga
+
+Puedes obtener Rut.js en Bower o en NPM.
+
+```shell
+# Desde bower
+$ bower install rutjs
+# O desde npm
+$ npm install rutjs
+```
 
 ## Ejemplos de uso
 
@@ -8,7 +19,7 @@
 var rut = new Rut('12345678-k');
 ```
 
-Se retorna un objeto con propiedades y metodos
+Se retorna un objeto con propiedades y metodos.
 
 ### Propiedades
 
@@ -84,12 +95,22 @@ var rut = new Rut('12345678-k');
 var rut = new Rut('12345678', true);
 ```
 
-## Compilar
+## ¿Quieres ayudar?
+
+Hace [fork](http://help.github.com/fork-a-repo/) del proyecto, clonalo y asegurate de instalar las dependencias:
+
+```shell
+$ npm install
+```
+
+Crea un branch con el nombre de tu característica-mejora-fix y hace tu [pull request](https://help.github.com/articles/using-pull-requests).
+
+### Compilar
 
 Se requiere de Grunt `~0.4.0`
 
 Solo tiene la opción default así que solo tienen que ejecutar:
 
 ```shell
-grunt
+$ grunt
 ```

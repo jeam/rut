@@ -1,6 +1,6 @@
 /*!
- * Rut.js v0.1.0
- * http://jeam.github.io/rutjs
+ * Rut.js v0.1.1
+ * http://jeam.github.io/rut
  *
  * Copyright (c) 2013 Jorge Álvarez <jorge@jalvarez.cl>
  * Released under the MIT license
@@ -17,7 +17,6 @@
   }
 })(this, function() {
   var Rut;
-
   Rut = (function() {
     var _cleanRut, _formatRut, _getCheckDigit;
 
@@ -39,7 +38,6 @@
 
     Rut.prototype.validate = function() {
       var checkDigit;
-
       if (!/([0-9]|k)/i.test(this.checkDigit)) {
         return false;
       }
@@ -68,7 +66,6 @@
 
     _getCheckDigit = function(rut) {
       var i, mul, res, sum;
-
       sum = 0;
       i = rut.length;
       mul = 2;

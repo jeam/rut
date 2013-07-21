@@ -1,10 +1,10 @@
 {
-  "name": "rutjs",
-  "version": "0.1.0",
+  "name": "rut",
+  "version": "0.1.1",
   "author": "Jorge Álvarez <jorge@jalvarez.cl> (http://jalvarez.cl)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeam/rutjs.git"
+    "url": "https://github.com/jeam/rut.git"
   },
   "main": "./dist/rut.js",
   "ignore": [

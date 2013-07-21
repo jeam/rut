@@ -1,18 +1,17 @@
 {
-  "name": "rutjs",
+  "name": "rut",
   "title": "Rut.js",
-  "filename": "rut",
   "description": "",
-  "homepage": "http://jeam.github.io/rutjs",
+  "homepage": "http://jeam.github.io/rut",
   "author": {
     "name": "Jorge Álvarez",
     "email": "jorge@jalvarez.cl",
     "web": "http://jalvarez.cl"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeam/rutjs.git"
+    "url": "https://github.com/jeam/rut.git"
   },
   "main": "dist/rut.js",
   "devDependencies": {
