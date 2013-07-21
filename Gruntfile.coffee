@@ -23,8 +23,8 @@ module.exports = (grunt) ->
 
 						'''
 			dist:
-				src: ['dist/<%= pkg.name %>.js']
-				dest: 'dist/<%= pkg.name %>.js'
+				src: ['dist/<%= pkg.filename %>.js']
+				dest: 'dist/<%= pkg.filename %>.js'
 		uglify:
 			options:
 				banner: '''
@@ -33,12 +33,12 @@ module.exports = (grunt) ->
 						'''
 			dist:
 				src: ['<%= concat.dist.dest %>']
-				dest: 'dist/<%= pkg.name %>.min.js'
+				dest: 'dist/<%= pkg.filename %>.min.js'
 		coffee:
 			compile:
 				options:
 					bare: true
 				files:
-					'dist/<%= pkg.name %>.js': 'src/*.coffee'
+					'dist/<%= pkg.filename %>.js': 'src/*.coffee'
 
 	grunt.registerTask 'default', ['clean', 'coffee', 'concat', 'uglify']

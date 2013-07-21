@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose publish [ '.' ]
+5 verbose read json /Users/jeam/Code/rutjs/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/jeam/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz
+14 verbose folder .
+15 info prepublish rut@0.1.1
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/jeam/.npm/3a52ce78-.lock
+18 silly lockFile 92c9963a-8996-0-14563267002813518-tmp-tgz /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz
+19 verbose lock /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz /Users/jeam/.npm/92c9963a-8996-0-14563267002813518-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 92c9963a-8996-0-14563267002813518-tmp-tgz /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz
+23 silly lockFile 92c9963a-8996-0-14563267002813518-tmp-tgz /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz
+24 verbose tar unpack /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz
+25 silly lockFile d1250043-8996-0-14563267002813518-package /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package
+26 verbose lock /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package /Users/jeam/.npm/d1250043-8996-0-14563267002813518-package.lock
+27 silly lockFile 92c9963a-8996-0-14563267002813518-tmp-tgz /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz
+28 verbose lock /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz /Users/jeam/.npm/92c9963a-8996-0-14563267002813518-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry LICENSE
+33 silly gunzTarPerm extractEntry index.js
+34 silly gunzTarPerm extractEntry dist/rut.js
+35 silly gunzTarPerm extractEntry dist/rut.min.js
+36 verbose read json /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package/package.json
+37 silly lockFile d1250043-8996-0-14563267002813518-package /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package
+38 silly lockFile d1250043-8996-0-14563267002813518-package /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package
+39 silly lockFile 92c9963a-8996-0-14563267002813518-tmp-tgz /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz
+40 silly lockFile 92c9963a-8996-0-14563267002813518-tmp-tgz /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/tmp.tgz
+41 verbose from cache /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package/package.json
+42 verbose tar pack [ '/Users/jeam/.npm/rut/0.1.1/package.tgz',
+42 verbose tar pack   '/Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package' ]
+43 verbose tarball /Users/jeam/.npm/rut/0.1.1/package.tgz
+44 verbose folder /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package
+45 silly lockFile d1250043-8996-0-14563267002813518-package /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package
+46 verbose lock /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package /Users/jeam/.npm/d1250043-8996-0-14563267002813518-package.lock
+47 silly lockFile 211d081c-s-jeam-npm-rut-0-1-1-package-tgz /Users/jeam/.npm/rut/0.1.1/package.tgz
+48 verbose lock /Users/jeam/.npm/rut/0.1.1/package.tgz /Users/jeam/.npm/211d081c-s-jeam-npm-rut-0-1-1-package-tgz.lock
+49 silly lockFile d1250043-8996-0-14563267002813518-package /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package
+50 silly lockFile d1250043-8996-0-14563267002813518-package /Users/jeam/tmp/npm-4611/1374385408996-0.14563267002813518/package
+51 silly lockFile 211d081c-s-jeam-npm-rut-0-1-1-package-tgz /Users/jeam/.npm/rut/0.1.1/package.tgz
+52 silly lockFile 211d081c-s-jeam-npm-rut-0-1-1-package-tgz /Users/jeam/.npm/rut/0.1.1/package.tgz
+53 silly lockFile abc89ba8-Users-jeam-npm-rut-0-1-1-package /Users/jeam/.npm/rut/0.1.1/package
+54 verbose lock /Users/jeam/.npm/rut/0.1.1/package /Users/jeam/.npm/abc89ba8-Users-jeam-npm-rut-0-1-1-package.lock
+55 silly lockFile abc89ba8-Users-jeam-npm-rut-0-1-1-package /Users/jeam/.npm/rut/0.1.1/package
+56 silly lockFile abc89ba8-Users-jeam-npm-rut-0-1-1-package /Users/jeam/.npm/rut/0.1.1/package
+57 verbose tar unpack /Users/jeam/.npm/rut/0.1.1/package.tgz
+58 silly lockFile abc89ba8-Users-jeam-npm-rut-0-1-1-package /Users/jeam/.npm/rut/0.1.1/package
+59 verbose lock /Users/jeam/.npm/rut/0.1.1/package /Users/jeam/.npm/abc89ba8-Users-jeam-npm-rut-0-1-1-package.lock
+60 silly lockFile 211d081c-s-jeam-npm-rut-0-1-1-package-tgz /Users/jeam/.npm/rut/0.1.1/package.tgz
+61 verbose lock /Users/jeam/.npm/rut/0.1.1/package.tgz /Users/jeam/.npm/211d081c-s-jeam-npm-rut-0-1-1-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry LICENSE
+66 silly gunzTarPerm extractEntry index.js
+67 silly gunzTarPerm extractEntry dist/rut.js
+68 silly gunzTarPerm extractEntry dist/rut.min.js
+69 verbose read json /Users/jeam/.npm/rut/0.1.1/package/package.json
+70 silly lockFile abc89ba8-Users-jeam-npm-rut-0-1-1-package /Users/jeam/.npm/rut/0.1.1/package
+71 silly lockFile abc89ba8-Users-jeam-npm-rut-0-1-1-package /Users/jeam/.npm/rut/0.1.1/package
+72 silly lockFile 211d081c-s-jeam-npm-rut-0-1-1-package-tgz /Users/jeam/.npm/rut/0.1.1/package.tgz
+73 silly lockFile 211d081c-s-jeam-npm-rut-0-1-1-package-tgz /Users/jeam/.npm/rut/0.1.1/package.tgz
+74 silly shasum updated bytes 3184
+75 info shasum 065fec2dc81f5cf785c67ff7e2b3f6e3bc02d903
+75 info shasum /Users/jeam/.npm/rut/0.1.1/package.tgz
+76 verbose from cache /Users/jeam/.npm/rut/0.1.1/package/package.json
+77 verbose chmod /Users/jeam/.npm/rut/0.1.1/package.tgz 644
+78 verbose chown /Users/jeam/.npm/rut/0.1.1/package.tgz [ 0, 20 ]
+79 silly lockFile 3a52ce78- .
+80 silly publish { name: 'rut',
+80 silly publish   title: 'Rut.js',
+80 silly publish   description: 'Rut.js es una pequeña herramienta que te ayuda al validado y formateo de rut\'s en tus aplicaciones JavaScript. La herramienta esta escrita en CoffeeScript y puede ser utilizado tanto en nodejs como en el browser.',
+80 silly publish   homepage: 'http://jeam.github.io/rut',
+80 silly publish   author:
+80 silly publish    { name: 'Jorge Álvarez',
+80 silly publish      email: 'jorge@jalvarez.cl',
+80 silly publish      url: 'http://jalvarez.cl' },
+80 silly publish   version: '0.1.1',
+80 silly publish   repository: { type: 'git', url: 'https://github.com/jeam/rut.git' },
+80 silly publish   main: 'dist/rut.js',
+80 silly publish   devDependencies:
+80 silly publish    { grunt: '0.4.x',
+80 silly publish      'grunt-contrib-coffee': '*',
+80 silly publish      'grunt-contrib-concat': '*',
+80 silly publish      'grunt-contrib-uglify': '*',
+80 silly publish      'grunt-contrib-clean': '*' },
+80 silly publish   engine: 'node >= 0.4.1',
+80 silly publish   readme: '# *Rut.js* Validador de Rut\n\nRut.js es una pequeña herramienta que te ayuda al validado y formateo de rut\'s en tus aplicaciones JavaScript. La herramienta esta escrita en CoffeeScript y puede ser utilizado tanto en nodejs como en el browser.\n\n## Descarga\n\nPuedes obtener Rut.js en Bower o en NPM.\n\n```shell\n# Desde bower\n$ bower install rutjs\n# O desde npm\n$ npm install rutjs\n```\n\n## Ejemplos de uso\n\n```js\nvar rut = new Rut(\'12345678-k\');\n```\n\nSe retorna un objeto con propiedades y metodos.\n\n### Propiedades\n\n#### .isValid `boolean`\n\n```js\nif ( rut.isValid ) {\n\t// true\n} else {\n\t// false\n}\n```\n\n#### .rut `string`\n\n```js\nconsole.log( rut.rut );\n// "12345678"\n```\n\n#### .checkDigit `string`\n\n```js\nconsole.log( rut.checkDigit );\n// "K"\n```\n\n### Metodos\n\n#### .validate() :`boolean`\n\n```js\nconsole.log( rut.validate() );\n// true or false\n```\n\n#### .getCleanRut() :`string`\n\n```js\nconsole.log( rut.getCleanRut() );\n// "12345678K"\n```\n\n#### .getNiceRut([`boolean`]) :`string`\n\n```js\nconsole.log( rut.getNiceRut() );\n// "12.345.678-K"\n\nconsole.log( rut.getNiceRut(false) );\n// "12345678-K"\n```\n\n#### .setRut(`string` [,`boolean`]) :`void`\n\nActualiza el rut en la variable, el segundo parametro es opcional.\n\n```js\n// Con dígito verificador\nrut.setRut(\'12.345.678-K\');\n\n// Sin dígito verificador\nrut.setRut(\'12345678\', true);\n```\n\n### Opciones\n\n```js\n// Con dígito verificador\nvar rut = new Rut(\'12345678-k\');\n\n// Sin dígito verificador\nvar rut = new Rut(\'12345678\', true);\n```\n\n## ¿Quieres ayudar?\n\nHace [fork](http://help.github.com/fork-a-repo/) del proyecto, clonalo y asegurate de instalar las dependencias:\n\n```shell\n$ npm install\n```\n\nCrea un branch con el nombre de tu característica-mejora-fix y hace tu [pull request](https://help.github.com/articles/using-pull-requests).\n\n### Compilar\n\nSe requiere de Grunt `~0.4.0`\n\nSolo tiene la opción default así que solo tienen que ejecutar:\n\n```shell\n$ grunt\n```',
+80 silly publish   readmeFilename: 'README.md',
+80 silly publish   _id: 'rut@0.1.1',
+80 silly publish   dist: { shasum: '065fec2dc81f5cf785c67ff7e2b3f6e3bc02d903' },
+80 silly publish   _from: '.' }
+81 verbose url raw rut
+82 verbose url resolving [ 'https://registry.npmjs.org/', './rut' ]
+83 verbose url resolved https://registry.npmjs.org/rut
+84 info trying registry request attempt 1 at 01:43:41
+85 http PUT https://registry.npmjs.org/rut
+86 http 409 https://registry.npmjs.org/rut
+87 verbose url raw rut
+88 verbose url resolving [ 'https://registry.npmjs.org/', './rut' ]
+89 verbose url resolved https://registry.npmjs.org/rut
+90 info trying registry request attempt 1 at 01:43:42
+91 http GET https://registry.npmjs.org/rut
+92 http 200 https://registry.npmjs.org/rut
+93 verbose uploading [ 'rut/-/rut-0.1.1.tgz/-rev/14-71f5ff50eb7a83525b0c1215a79a3bf9',
+93 verbose uploading   '/Users/jeam/.npm/rut/0.1.1/package.tgz' ]
+94 verbose url raw rut/-/rut-0.1.1.tgz/-rev/14-71f5ff50eb7a83525b0c1215a79a3bf9
+95 verbose url resolving [ 'https://registry.npmjs.org/',
+95 verbose url resolving   './rut/-/rut-0.1.1.tgz/-rev/14-71f5ff50eb7a83525b0c1215a79a3bf9' ]
+96 verbose url resolved https://registry.npmjs.org/rut/-/rut-0.1.1.tgz/-rev/14-71f5ff50eb7a83525b0c1215a79a3bf9
+97 info trying registry request attempt 1 at 01:43:43
+98 http PUT https://registry.npmjs.org/rut/-/rut-0.1.1.tgz/-rev/14-71f5ff50eb7a83525b0c1215a79a3bf9
+99 http 403 https://registry.npmjs.org/rut/-/rut-0.1.1.tgz/-rev/14-71f5ff50eb7a83525b0c1215a79a3bf9
+100 info trying registry request attempt 1 at 01:43:46
+101 http PUT https://registry.npmjs.org/rut/-/rut-0.1.1.tgz/-rev/14-71f5ff50eb7a83525b0c1215a79a3bf9
+102 http 403 https://registry.npmjs.org/rut/-/rut-0.1.1.tgz/-rev/14-71f5ff50eb7a83525b0c1215a79a3bf9
+103 error publish Error uploading package
+104 error Error: forbidden user: jeam not authorized to modify rut
+104 error Added: _attachments.rut-0.1.1.tgz: rut/-/rut-0.1.1.tgz/-rev/14-71f5ff50eb7a83525b0c1215a79a3bf9
+104 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:269:14)
+104 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/index.js:142:22)
+104 error     at Request.EventEmitter.emit (events.js:98:17)
+104 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:856:14)
+104 error     at Request.EventEmitter.emit (events.js:117:20)
+104 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:808:12)
+104 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+104 error     at _stream_readable.js:895:16
+104 error     at process._tickCallback (node.js:415:13)
+105 error If you need help, you may report this log at:
+105 error     <http://github.com/isaacs/npm/issues>
+105 error or email it to:
+105 error     <npm-@googlegroups.com>
+106 error System Darwin 12.4.0
+107 error command "node" "/usr/local/bin/npm" "publish"
+108 error cwd /Users/jeam/Code/rutjs
+109 error node -v v0.10.5
+110 error npm -v 1.2.18
+111 verbose exit [ 1, true ]
